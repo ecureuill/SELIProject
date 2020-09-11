@@ -29,7 +29,7 @@ jobs:
         uses: peter-evans/create-issue-from-file@v2.3.1
         with:
           # The GitHub authentication token
-          token: ${{ GITHUB_TOKEN }}
+          token: ${{ secrets.MY_PERSONAL_ACTION_TOKEN }}
           # The issue number of an existing issue to update
           issue-number: 83
           # The title of the issue.
