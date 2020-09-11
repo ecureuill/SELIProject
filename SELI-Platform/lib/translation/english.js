@@ -888,5 +888,6 @@ var ENGLISH = {
   gettingCourseInf: "Getting course information",
   zoomIn: "Zoom in",
   zoomOut: "Zoom out",
+  newEntry: "testing the tracker",
 }
 export default ENGLISH;
