@@ -22,12 +22,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Create Issue From File
       - uses: actions/checkout@v2
 
       # Runs a single command using the runners shell
       - name: Create Issue From File
-  # You may pin to the exact commit or the version.
-  # uses: peter-evans/create-issue-from-file@df09bc632216bb200cc2103ecc8c4920c5223ba6
       - uses: peter-evans/create-issue-from-file@v2.3.1
         with:
           # The GitHub authentication token
